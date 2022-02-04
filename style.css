@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-size: 24px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main img {
+  width: 250px;
+  height: 250px;
+}
+
+main .mensagem-maquina {
+  color: #222;
+}
+
+main .mensagem-usuario {
+  color: red;
+}
+
+footer {
+  background-color: #DBDBDB;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer button {
+  border: 0;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer button:hover {
+  cursor: pointer;
+}
